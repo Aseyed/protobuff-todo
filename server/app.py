@@ -20,7 +20,7 @@ class Listener(Resource):
 
 # %%
 if __name__ == "__main__":
-    site = server.Site(Task())
+    site = server.Site(Listener())
     server = endpoints.serverFromString(
         reactor,
         # "ssl:port=5000:privateKey=key.pem:certKey=cert.pem",
