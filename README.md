@@ -1,5 +1,5 @@
 # protobuff-todo
-#### This is a todo app with python language based on gRPC protocol (based on protobuff protocol) and twisted framework
+#### This is a todo app with python language based on protobuff protocol and twisted framework
 
 ## pre-requirements
 * make a virtual env
@@ -12,7 +12,7 @@
 * make proto file in python
     * if you changed the todo.proto file do these; else jump to next level      
     * `cd todo`
-    * `python -m grpc_tools.protoc -I . ./todo/todo.proto --python_out=. --grpc_python_out=.`
+    * `protoc -I . todo.proto --python_out=.`
 * run server
     * `cd server` 
     * `python app.py`
