@@ -7,7 +7,7 @@ from twisted.internet import reactor, endpoints
 
 
 # %%
-class Task(Resource):
+class Listener(Resource):
     isLeaf = True
 
     @staticmethod
