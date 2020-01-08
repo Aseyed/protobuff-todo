@@ -1,5 +1,5 @@
-# python-toto
-#### This is a todo app with python language based on gRPC protocol and twisted framework
+# protobuff-todo
+#### This is a todo app with python language based on gRPC protocol (based on protobuff protocol) and twisted framework
 
 ## pre-requirements
 * make a virtual env
