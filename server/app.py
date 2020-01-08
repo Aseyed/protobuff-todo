@@ -1,6 +1,4 @@
 # %%
-# from ..proto import todo_pb2
-
 from todo import todo_pb2
 from twisted.web import server
 from twisted.web.resource import Resource
