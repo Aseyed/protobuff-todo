@@ -12,7 +12,7 @@
 * make proto file in python
     * if you changed the todo.proto file do these; else jump to next level      
     * `cd todo`
-    * `protoc -I . todo.proto --python_out=plugins=grpc:.`
+    * `python -m grpc_tools.protoc -I . ./todo/todo.proto --python_out=. --grpc_python_out=.`
 * run server
     * `cd server` 
     * `python app.py`
